@@ -11,16 +11,33 @@
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Khameye</a>
-      <nav  id="nav">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <!--Nav bar(box)-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html"><mark>"GIT" @ME</mark></a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" id="dropbtn00">PORTFOLIO    &#9776;</a>
+          <div class="dropdown-content">
+            <a href="https://dkahuna.github.io/Word_Guess_Game/">Letter Guessing Game</a>
+            <a href="https://dkahuna.github.io/unit-4-game/">Mining For Crystals</a>
+            <a href="https://dkahuna.github.io/TriviaGame/">Trivia Time!!</a>
+            <a href="https://dkahuna.github.io/Auto-GIFs/">GiFs of Automobiles</a>
+            <a href="https://dkahuna.github.io/Train-time-chart/">Train Scheduling</a>
+            <!--  Empty Slots for future links
+              <a href="#">Link 6</a>
+            <a href="#">Link 7</a>
+            <a href="#">Link 8</a>-->
+          </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" id="dropbtn01">PROJECTS   &#9776;</a>
+            <div class="dropdown-content">
+              <a href="https://edwardsjtimothy.github.io/Project_1/">Waste-To-Go 06/22/2019</a>
+              <a href="#">Project--2(tbd)</a>
+              <a href="#">Project--3(tbd)</a>
+            </div>
+          </li>
+      </ul>
 
   <div id="main-container" class="container">
     <section class="main-section">
@@ -29,11 +46,11 @@
       <form id="contact-form">
         <ul>
           <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <label for="name"><bold>Name</label>
+            <input type="text" id="name" name="name" placeholder="First & Last" required="required">
           </li>
           <li>
-            <label for="email">Email</label>
+            <label for="email"><bold>Email</label>
             <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
           </li>
           <li>
@@ -41,7 +58,7 @@
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+        <input type="submit" style="color: rgb(5, 1, 1)">
       </form>
 
     </section>
