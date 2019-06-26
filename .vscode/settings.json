@@ -1,0 +1,8 @@
+{
+    "editor.wordWrap": "on",
+    "editor.fontSize": 18,
+    "editor.fastScrollSensitivity": 3,
+    "workbench.sideBar.location": "right",
+    "workbench.tree.indent": 15,
+    "workbench.colorTheme": "Monokai"
+}
