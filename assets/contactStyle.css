@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: white;
-    background: url("../images/concrete_seamless.png");
+    background: url("../images/164611.jpg");
   }
   
   * {
@@ -106,6 +106,7 @@ footer {
     font-size: 12px;
     color: black;
     color: whitesmoke;
+    opacity: 0.5;
     text-align: center;
     background: black;
     border-top: 8px crimson;
