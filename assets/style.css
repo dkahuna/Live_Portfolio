@@ -106,6 +106,7 @@ li.dropdown {
 /* footer */
 
 footer {
+  text-align: center;
   padding: 30px 0;
   clear: both;
   font-size: 12px;
