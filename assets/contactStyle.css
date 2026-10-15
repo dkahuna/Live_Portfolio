@@ -78,7 +78,6 @@ h1 {
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-    opacity: 0.8;
   }
   
   .main-section {
